@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('pawsword.jpg');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.cont {
+    height: 250px;
+    width: 500px;
+ background: rgba(255, 255, 255,0.2);;
+  backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#output {
+    background-color: #ffffff;
+    border: 1px solid rgb(2, 3, 2);
+    height: 30px;
+    width: 70%;
+    text-align: center;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 16px;
+    padding: 5px;
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #44107A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5f2c8f;
+}
+
+#statusMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+#current-date {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -15px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.task-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-time {
+    font-size: 0.7rem;
+    color: var(--accent);
+    opacity: 0.8;
+    margin-top: 4px;
+}
